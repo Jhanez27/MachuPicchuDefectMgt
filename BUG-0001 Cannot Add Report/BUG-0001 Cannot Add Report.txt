@@ -1,0 +1,44 @@
+Machu Picchu v1.0 1stPass Transaction Report [Feature]: Cannot Add Report
+
+[Summary]
+
+[Precondition]
+ Software version: MachuPicchu v1.o
+
+
+[Steps to reproduce]
+ 1. Navigate to the "Reports" page.
+ 2. Click the "Create Report" button.
+ 3. Enter values for Cash Inflow and Cash Outflow.
+ 4. Click "Submit Report".
+ 5. Refresh the page.
+
+[Actual results]
+ Even with a successful creation based on the message prompt, on refresh, no new report is created and displayed in the report list.
+
+[Expected results]
+ After a successful creation prompt, a new report should be added and displayed on the report list.
+
+[Additional information]
+ A screenshot of the console error, along with screenshots showing the successful message prompt but no new report being added, is attached for your reference.
+
+[Is this Breakage?]
+ Yes, this is a breakage. The report creation functionality was previously working, but is now failing to add new reports despite showing a success message.
+ 
+[Previous code tested]
+ MP.010.000
+ 
+[Severity: How does this problem impact the customer/user?]
+ 6. usability
+ 
+[Likelihood: How often will a customer/user use this feature/function?]
+ 6. Moderate
+
+[Repeatability: Is this problem easily reproducible?]
+ 10. 100% Reproducible
+
+[Impacted Test Cases]
+ REP-0002 
+
+[Impact Sizing (in days)]
+ Less than a day
