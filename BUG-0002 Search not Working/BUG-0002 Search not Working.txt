@@ -1,0 +1,44 @@
+Machu Picchu v1.0 1stPass User Management [Feature]: Search not Working
+
+[Summary]
+
+[Precondition]
+ Opened honesty store web application.
+ Logged in admin account.
+
+
+[Steps to reproduce]
+ 1. Navigate to the "Account Management" page.
+ 2. Click the "Edit User" button.	
+ 3. Click "Select User" drop down button.	
+ 4. Enter a name in the search bar.
+
+[Actual results]
+ No users displayed in every search even there is a relevant user.
+
+[Expected results]
+ Relevant users should show based on the keyword input.
+
+[Additional information]
+ A screenshot showing the current account registered and the error when searching displaying no users found is attach for your reference.
+
+[Is this Breakage?]
+ Yes, this is a breakage. The search functionality was previously working, but is now failing.
+ 
+[Previous code tested]
+ MP.010.000
+ 
+[Severity: How does this problem impact the customer/user?]
+ 6. usability
+ 
+[Likelihood: How often will a customer/user use this feature/function?]
+ 6. Moderate
+
+[Repeatability: Is this problem easily reproducible?]
+ 10. 100% Reproducible
+
+[Impacted Test Cases]
+ None
+
+[Impact Sizing (in days)]
+ Less than a day

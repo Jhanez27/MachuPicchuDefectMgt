@@ -3,7 +3,8 @@ Machu Picchu v1.0 1stPass Transaction Report [Feature]: Cannot Add Report
 [Summary]
 
 [Precondition]
- Software version: MachuPicchu v1.o
+ Opened honesty store web application.
+ Logged in admin account.
 
 
 [Steps to reproduce]
